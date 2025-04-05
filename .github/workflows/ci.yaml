@@ -26,4 +26,4 @@ jobs:
 
       - name: Run tests
         run: |
-          PYTHONPATH=. pytest
+          PYTHONPATH=. pytest --cov=dag --cov-fail-under=85
