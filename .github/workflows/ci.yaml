@@ -1,5 +1,3 @@
-# .github/workflows/ci.yml
-
 name: Python CI
 
 on:
@@ -28,4 +26,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest
+          PYTHONPATH=. pytest
